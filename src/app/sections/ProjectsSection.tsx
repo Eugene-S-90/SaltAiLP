@@ -13,7 +13,7 @@ export default function ProjectsSection() {
     xl: -850,
   });
   return (
-    <section className="flex flex-col justify-center items-center relative  h-screen overflow-hidden">
+    <section id="projects" className="flex flex-col justify-center items-center relative  h-screen overflow-hidden">
       <h2 className="font-[var(--third-family)] text-[4rem] text-center text-white">Projects integrated into the Arrakis AI Ecosystem</h2>
 
       <motion.div

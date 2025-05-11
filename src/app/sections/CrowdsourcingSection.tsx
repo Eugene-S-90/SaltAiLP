@@ -13,7 +13,7 @@ export default function CrowdsourcingSection() {
     const { width } = useWindowSize();
 
     return (
-        <section className="w-[100%]  h-screen flex flex-col justify-center items-start relative overflow-hidden">
+        <section id="crowdsourcing" className="w-[100%]  h-screen flex flex-col justify-center items-start relative overflow-hidden">
             <AnimatePresence>
                 {cometIsVisible && <motion.div
                     initial={{ opacity: 0, x: -50, y: -50 }}

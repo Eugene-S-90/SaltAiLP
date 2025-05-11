@@ -6,7 +6,7 @@ import { RefObject } from "react";
 export default function EarthSection({ earthSectionRef,translateY }: { earthSectionRef: React.RefObject<HTMLDivElement> | RefObject<null>,translateY: MotionValue<number> }) {
 
   return (
-    <section ref={earthSectionRef} className="w-[100%] h-[100vh] relative">
+    <section id="earth" ref={earthSectionRef} className="w-[100%] h-[100vh] relative">
 
       <div className="w-[100%] h-[100%] flex justify-center items-center">
         <motion.h2

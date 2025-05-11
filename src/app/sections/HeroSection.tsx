@@ -22,7 +22,7 @@ export default function HeroSection() {
     }
 
     return (
-        <section className="hero overflow-hidden">
+        <section id="hero" className="hero overflow-hidden">
             <header className="flex items-center justify-center gap-[50px] pt-[31px] "
             >
                 <p className="bg-clip-text text-white  hover:bg-[linear-gradient(129deg,_#b53ea4_0%,_#fc6f32_49.5%,_#ff4a59_100%)] hover:text-transparent transition-all duration-300 cursor-pointer" onClick={startScene}>How it works</p>

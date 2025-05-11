@@ -42,7 +42,7 @@ export default function CommunitySection({ joinSectionRef }: { joinSectionRef: R
       setCometIsVisible(true);
     }
 
-  }, [moonScrollProgress.get(), setCometIsVisible,cometIsVisible])
+  }, [moonScrollProgress.get(), setCometIsVisible, cometIsVisible])
 
 
 
@@ -53,7 +53,7 @@ export default function CommunitySection({ joinSectionRef }: { joinSectionRef: R
   const { width } = useWindowSize()
 
   return (
-    <section ref={joinSectionRef} className="w-[100%] h-[100vh] overflow-hidden">
+    <section id="community" ref={joinSectionRef} className="w-[100%] h-[100vh] overflow-hidden">
       <div className="spice-container flex  justify-between items-center  h-[90vh] max-sm:flex-col max-sm:justify-center ">
         <div className="w-[53%] max-sm:w-[90%] max-sm:mt-[15%]  flex flex-col justify-center items-start ">
           <h2 className="font-[var(--third-family)]  text-[4rem] leading-[110%] text-white">Join our community</h2>
