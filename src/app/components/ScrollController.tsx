@@ -72,7 +72,7 @@ export default function ScrollController() {
                 setShowBullets(true);
             }
 
-            document.documentElement.style.setProperty("--scroll", scroll.toString());
+            // document.documentElement.style.setProperty("--scroll", scroll.toString());
         };
 
         lenis.on("scroll", update);
