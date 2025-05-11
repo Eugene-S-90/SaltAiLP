@@ -54,7 +54,7 @@ export default function CommunitySection({ joinSectionRef }: { joinSectionRef: R
 
   return (
     <section id="community" ref={joinSectionRef} className="w-[100%] h-[100vh] overflow-hidden">
-      <div className="spice-container flex  justify-between items-center  h-[90vh] max-sm:flex-col max-sm:justify-center ">
+      <div className="salt-container flex  justify-between items-center  h-[90vh] max-sm:flex-col max-sm:justify-center ">
         <div className="w-[53%] max-sm:w-[90%] max-sm:mt-[15%]  flex flex-col justify-center items-start ">
           <h2 className="font-[var(--third-family)]  text-[4rem] leading-[110%] text-white">Join our community</h2>
           <p className="font-[var(--second-family)]  text-[1.5rem] leading-[133%] text-white mt-[32px]">Join us on our mission to to the moon & revolutionize open source AI development so that we can build a permissionless, democratized, and decentralized AI.</p>
