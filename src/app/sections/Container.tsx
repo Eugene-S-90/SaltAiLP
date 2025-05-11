@@ -3,7 +3,7 @@
 
 export default function Container({ children }: { children: React.ReactNode }) {
     return (
-        <div className="spice-container relative z-10">
+        <div className="salt-container relative z-10">
             {children}
         </div>
 
